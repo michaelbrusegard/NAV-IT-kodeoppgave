@@ -101,5 +101,8 @@ function runTests() {
   console.log('All tests passed!');
 }
 
+// Run the function with the example input
+console.log(calculateDagpenger(example));
+
 // Run the tests
 runTests();
