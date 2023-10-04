@@ -50,7 +50,3 @@ Dersom andre trenger tilgang, sier vi i fra til deg.
 På GitHub gir du oss tilgang under innstillingen "Collaborators".
 
 Innleveringsfrist er onsdag 11. oktober kl. 12.00. Send oss gjerne en mail når du er ferdig!
-
-```
-
-```
