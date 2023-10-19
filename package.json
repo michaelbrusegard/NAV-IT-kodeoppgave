@@ -1,0 +1,24 @@
+{
+  "name": "nav-it-kodeoppgave",
+  "version": "2.0.0",
+  "description": "Kodeoppgave for intervju hos NAV IT",
+  "main": "calculateDagpenger.js",
+  "type": "module",
+  "scripts": {
+    "test": "node src/calculateDagpengerTest.js",
+    "input": "node src/userInput.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelbrusegard/NAV-IT-kodeoppgave.git"
+  },
+  "author": "Michael Brusegard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelbrusegard/NAV-IT-kodeoppgave/issues"
+  },
+  "homepage": "https://github.com/michaelbrusegard/NAV-IT-kodeoppgave#readme",
+  "dependencies": {
+    "axios": "^1.5.1"
+  }
+}
