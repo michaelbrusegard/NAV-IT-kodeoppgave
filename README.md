@@ -2,7 +2,7 @@
 
 ## How to run
 
-Make sure to have node installed on your machine. If not, you can download it [here](https://nodejs.org/en/download/). I am using LTS version 18.18.0.
+Make sure to have node installed on your machine. If not, you can download it [here](https://nodejs.org/en/download/). I am using LTS version 18.18.0 for this project with Node Version Manager (nvm).
 
 ```bash
 $ git clone https://github.com/michaelbrusegard/NAV-IT-kodeoppgave
@@ -12,11 +12,25 @@ $ git clone https://github.com/michaelbrusegard/NAV-IT-kodeoppgave
 $ cd NAV-IT-kodeoppgave
 ```
 
+Install all dependencies (axios) with either bun or npm (or any other package manager). I am using bun because it is faster than npm and I want to try it out.
+
 ```bash
-$ node script.js
+$ bun install # or npm install
 ```
 
-The main function for the assignment is called `calculateDagpenger()` and takes an integer array with the last three years of income as input. The function returns an object with the boolean `eligibleForDagpenger` and an integer `dagsatsen` if the user is eligible for dagpenger. The function will throw an error if the input is invalid. To run test use the `runTests()` function. Both functions are called in the `script.js` file.
+To run the tests, use the following command:
+
+```bash
+$ bun runTests # or npm runTests
+```
+
+To run the function with a custom command line input, use the following command:
+
+```bash
+$ bun input # or npm input
+```
+
+The main function for the assignment is called `calculateDagpenger()` (in `calculateDagpenger.js`) and takes an integer array with the last three years of income as input. The function returns an object with the boolean `eligibleForDagpenger` and an integer `dagsatsen` if the user is eligible for dagpenger else dagsatsen is set to null. The function will throw an error if the input is invalid. Tests can be found in `calculateDagpenger.test.js`. And the command line input can be found in `userInput.js`.
 
 ## Assignment
 
