@@ -30,7 +30,7 @@ To run the function with a custom command line input, use the following command:
 $ bun input # or npm input
 ```
 
-The main function for the assignment is called `calculateDagpenger()` (in `calculateDagpenger.js`) and takes an integer array with the last three years of income as input. The function returns an object with the boolean `eligibleForDagpenger` and an integer `dagsatsen` if the user is eligible for dagpenger else dagsatsen is set to null. The function will throw an error if the input is invalid. Tests can be found in `calculateDagpenger.test.js`. And the command line input can be found in `userInput.js`.
+The main function for the assignment is called `calculateDagpenger()` (in `calculateDagpenger.js`) and takes an integer array with the last three years of income as input. The function returns an object with the boolean `eligibleForDagpenger` and an integer `dagsatsen` if the user is eligible for dagpenger else dagsatsen is set to null. The function will throw an error if the input is invalid. Tests can be found in `calculateDagpengerTest.js`. And the command line input can be found in `userInput.js`.
 
 ## Assignment
 
