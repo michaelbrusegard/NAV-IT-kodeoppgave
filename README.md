@@ -12,7 +12,7 @@ $ git clone https://github.com/michaelbrusegard/NAV-IT-kodeoppgave
 $ cd NAV-IT-kodeoppgave
 ```
 
-Install all dependencies (axios) with either bun or npm (or any other package manager). I am using bun because it is faster than npm and I want to try it out.
+Install all dependencies (axios) with either npm (or any other package manager). I am trying out the bun runtime + package manager right now which you can find [here]([https://bun.sh), but using node.js should work just fine.
 
 ```bash
 $ bun install # or npm install
